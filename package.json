@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ijh5005/classExample/issues"
   },
-  "homepage": "https://github.com/ijh5005/classExample#readme"
+  "homepage": "https://github.com/ijh5005/classExample#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
